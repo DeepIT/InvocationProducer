@@ -1,0 +1,4 @@
+Do you remember ugly configuration of NSInvocation instances?
+Set target and selector, set arguments from 2 and next... Awesome process, error prone indeed.
+You can allow compiler to do most such work for you. Like correct stack frame allocation and arguments binding.
+DIInvocation category contains useful methods to simplify your life and do it easy.
